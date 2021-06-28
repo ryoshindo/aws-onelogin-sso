@@ -15,6 +15,7 @@ OneLoginからAWSへSAMLでSSOするための設定をTerraformで行うため�
     $ export ONELOGIN_CLIENT_ID=<your client id>
     $ export ONELOGIN_CLIENT_SECRET=<your client secret>
     $ export ONELOGIN_OAPI_URL=<the api url for your region>
+    $ cd terraform
     $ terraform init
     $ terraform plan
     $ terraform apply
