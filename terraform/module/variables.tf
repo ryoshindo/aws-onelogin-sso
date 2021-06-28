@@ -1,7 +1,3 @@
-variable "onelogin_subdomain" {
-  type = string
-}
-
 variable "saml_provider_name" {
   type = string
 }
@@ -20,6 +16,10 @@ variable "max_session_duration" {
 }
 
 variable "onelogin_app_name" {
+  type = string
+}
+
+variable "onelogin_subdomain" {
   type = string
 }
 
