@@ -1,4 +1,4 @@
-# infosec-onelogin-aws-sso
+# aws-onelogin-sso
 
 OneLoginからAWSへSAMLでSSOするための設定をTerraformで行うためのリポジトリです。
 
