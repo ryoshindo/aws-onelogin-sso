@@ -4,7 +4,7 @@ OneLoginからAWSへSAMLでSSOするための設定をTerraformで行うため�
 
 ## 必要なもの
 - OneLogin Credentials：Manage All権限が付与されたCredentials
-- AWS Credentials：[権限はこちら](policy.json)
+- AWS Credentials：最低限[こちらの権限](policy.json)が付与されたIAMユーザー
 
 
 ## 設定
