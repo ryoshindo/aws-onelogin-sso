@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:GetRole",
+                "iam:GetRolePolicy",
+                "iam:GetSAMLProvider",
+                "iam:CreateRole",
+                "iam:CreateSAMLProvider",
+                "iam:PutRolePolicy",
+                "iam:ListRolePolicies",
+                "iam:ListAttachedRolePolicies",
+                "iam:ListInstanceProfilesForRole"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:DeleteRole",
+                "iam:DeleteRolePolicy",
+                "iam:DeleteSAMLProvider"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
