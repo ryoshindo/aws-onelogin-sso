@@ -90,7 +90,7 @@ resource "onelogin_saml_apps" "aws_saml" {
   }
 
   configuration = {
-    signature_algorithm = "SHA-1"
+    signature_algorithm = "SHA-256"
   }
 
 }
